@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$fcolor: #fff;
+$gcolor: grey;
+$lightgrey: #D3D3D3;
+$navy: #25223F;
+$pink: #FC5B62;
+$tcolor: #404040;
+$bcolor: #F1F8FF;
+$nude: #e1e1e1;
+
+$fontfam: 'Quicksand', sans-serif;
+/*===============HOME-STYLING=====================*/
+.banner{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+    
+    h1{
+        color: $fcolor;
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 315px;
+        margin-bottom: 20px;
+        text-align: center !important;
+        font-family: $fontfam;
+        
+    }
+    p{
+        color: $fcolor;
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center !important;
+        font-family: $fontfam;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    #button1{
+        background-color: $pink;
+        border: 1px solid $pink;
+        border-radius: 4px;
+        color: $fcolor;
+        font-family: $fontfam;
+        font-size: 15px;
+        padding: 13px 38px;
+        text-transform: capitalize;
+        transition: all 0.3s ease 0s;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        line-height: 1.5;
+        margin-left: 425px;
+
+    }
+    
+}
+
+.top-deals{
+    padding: 80px 80px;
+    
+
+
+    .section-title{
+        span{
+            color: $pink;
+            font-weight: 600;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: block;
+            text-align: center; 
+        }
+        h2{
+            font-family: 'Quicksand', sans-serif;
+            color: $tcolor;
+            font-weight: 700;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+    }
+    .top-places{
+        .card-1{
+            padding: 35px 0;
+            img{
+                width: 100%;
+            }
+        }
+        .img-caption{
+            margin-top: -130px;
+            margin-left: 30px;
+            h4{
+                color: $fcolor;
+                font-family: $fontfam;
+                font-size: 24px;
+                margin-bottom: 7px;
+                font-weight: 700;
+            }
+            .address-icon{
+                position: relative;
+
+                &::before{
+                    position: absolute;
+                    content: "\f041";
+                    font-family: "FontAwesome";
+                    left: -18px;
+                    color: $fcolor;
+                    font-size: 20px;
+                    top: 3px;
+                    
+                }
+                
+            }
+            p{
+                color: $fcolor;
+                font-family: $fontfam;
+                font-size: 700;
+                font-size: 17px;  
+                margin-bottom: 3px;
+            }
+            .card-stars{
+                .fa{
+                    color: gold;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.why-choose{
+        padding-top: 100px;
+        background-color: whitesmoke;
+   
+    .side-img{
+       img{
+            width: 100%;
+        }
+    }
+    .text-right{
+        padding-right: 20px;
+        padding-left: 15px;
+        span{
+            color: $pink;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: block;
+            text-align: left !important;
+            font-family: $fontfam;
+            font-size: 15px;
+            line-height: 28px; 
+           
+                        
+        }
+        h2{
+            color: $tcolor;
+            font-family: $fontfam;
+            font-weight: 700;
+            font-size: 2rem;
+            margin-top: 0px;
+            display: block;
+            text-align: left !important;
+            margin-bottom: 40px;
+            
+        }
+    }
+    .icon-divs{
+        display: flex;
+        margin-bottom: 20px;
+        .ico{
+            flex: 3;
+            span{
+                display: block;
+                background: #FC5B62;
+                padding: 14px;
+                position: relative;
+                border-radius: 100%;
+                text-align: center;
+                width: 55px;
+                height: 55px;
+                img{
+                    width: 100%;                    
+                }
+            }
+        }
+        .texts{
+            flex: 9;
+            padding-left: 5px;
+            h4{ 
+                font-size: 18px;
+                font-family: $fontfam;
+                font-weight: 700;
+                text-align: left !important;
+               
+                
+            }
+            p{
+                font-size: 15px;
+                font-family: $fontfam;
+                font-weight: 400;
+                margin-bottom: 15px;
+                line-height: 28px;
+
+            }
+        }
+    }
+}
+
+.testimoni{
+            background-image: url('../img/testi-image.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 20px;
+
+        span{
+            color: $pink;
+            font-weight: 600;
+            padding-top: 30px;
+            margin-top: -20px;
+            margin-bottom: 20px;
+            display: block;
+            text-align: center !important;
+            font-family: $fontfam;
+            font-size: 15px;
+            line-height: 28px; 
+        }
+        h2{
+            color: $fcolor;
+            font-family: $fontfam;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+    .carousel-inner{
+        .carousel-item{
+            padding: 40px 20px;
+            img{
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                padding: 15px;
+                margin-top: -30px;
+            }
+            h4{
+                color:$fcolor;
+                font-family: $fontfam;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .fa{
+                color: gold;
+                margin-bottom: 25px;
+            }
+            p{
+                color: $fcolor;
+                font-family: $fontfam;
+                font-weight: 400;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+/*===============COMPANY-PROFILE=====================*/
+.top-banner{
+    background-image: url('../img/about-back.png');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-bottom: 60px;
+    background-position: bottom;
+
+    h2{
+        color: $fcolor;
+        font-weight: 700;
+        font-family: $fontfam; 
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        padding: 18px; 
+        font-size: 60px;
+    }
+}
+.our-story{
+    h5{
+        color: $tcolor;
+        font-weight: 700;
+        font-family: $fontfam;
+        font-size: 35px;
+        padding-bottom: 20px;
+     
+     }
+     p{
+         color: $tcolor;
+         font-size: 18px;
+         font-family: $fontfam;
+         font-weight: 500;
+     
+     }
+}
+
+.quick-links{
+    background-color: $bcolor;
+    border-radius: 5px;
+    padding: 30px 80px;
+    margin-left: 30px;
+    margin-top: 15px;
+    
+    h5{
+        color: $tcolor;
+        font-weight: 700;
+        font-family: $fontfam;
+        font-size: 30px;
+      
+    }
+    .links{
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+            a{
+                text-decoration: none;
+                padding: 5px;
+                color: $pink;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 5px;
+                cursor: pointer;
+                position: relative;
+
+                &:hover{
+                 color: $tcolor;
+                }
+
+                &::before{
+                    position: absolute;
+                    content: "\f0fb";
+                    font-family: "FontAwesome";
+                    left: -30px;
+                    font-size: 16px;
+                    top: 6px;
+
+                }
+            }
+        }
+    } 
+    
+}
+
+
+/*===============DESTINATIONS=====================*/
+.top-baner{
+    background-image: url('../img/nepal1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-bottom: 60px;
+        
+    h2{
+        color: $fcolor;
+        font-weight: 700;
+        font-family: $fontfam; 
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        padding-top:60px;
+        font-size: 60px;
+    }
+    
+}
+
+/*===============CONTACT-US=====================*/
+.contact-area{  
+    h2{
+        color: $tcolor;
+        font-family: $fontfam;
+        font-weight: 700;
+        margin-top: 50px;
+        margin-bottom: 25px;    
+    }
+    form{  
+        background-color:#f1f6f9;      
+        margin-left: 10px;
+        padding: 30px;
+        border-radius: 8px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 30px;
+    }
+
+    label{
+        font-weight: 400;
+        font-family: $fontfam;
+        padding: 5px;
+    }
+
+    input{
+        border-radius: 8px;
+        border-color: darkgrey;
+    }
+
+    input[type=submit]{
+        width: 100%;
+        background-color:$pink;
+        color: white;
+        font-family: $fontfam;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+
+    }
+
+    .contact-address{       
+        padding-top: 100px;
+          
+        h5{
+            font-family: $fontfam;
+            color: $tcolor;
+            font-weight: 700;
+            margin-left: 70px;  
+            text-transform: capitalize;  
+            padding-left: 20px;
+            margin-top: 10px;
+            
+        }
+        #address{
+            position: relative;
+
+            &::before{
+                position: absolute;
+                content: "\f041";
+                font-family: "FontAwesome";
+                left: -40px;
+                background-color: $pink;
+                color: $fcolor;
+                padding: 8px 14px;
+                border-radius: 80%;
+            }
+        }
+        #contct{
+            position: relative;
+
+            &::before{
+                position: absolute;
+                content: "\f095";
+                font-family: "FontAwesome";
+                left: -40px;
+                background-color: $pink;
+                color: $fcolor;
+                padding: 8px 12px;
+                border-radius: 80%;
+            }
+        }
+        #email{
+            position: relative;
+
+            &::before{
+                position: absolute;
+                content: "\f003";
+                font-family: "FontAwesome";
+                left: -40px;
+                background-color: $pink;
+                color: $fcolor;
+                padding: 10px 12px;
+                border-radius: 80%;
+            }
+        }
+        p{
+            font-family: $fontfam;
+            color: $tcolor;
+            font-weight: 500;
+            margin-left: 70px;  
+            text-transform: capitalize; 
+            padding-left: 20px;
+            margin-bottom: 25px;    
+        }
+    }
+}
+.maps{
+    overflow-x: hidden;
+}
